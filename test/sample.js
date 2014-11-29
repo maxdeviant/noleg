@@ -1,12 +1,7 @@
 'use strict';
 
-var OlegDB = require('../lib/driver');
+var oleg = require('../');
 
-var db = new OlegDB('localhost', 38080, 'turtles');
+oleg.connect('turtles');
 
-db.create('red', 'Michaelangelo');
-db.read('red');
-db.update('red', 'Raphael');
-db.read('red');
-db.delete('red');
-db.info('red');
+console.log(oleg);
