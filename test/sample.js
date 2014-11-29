@@ -2,7 +2,7 @@
 
 var oleg = require('../');
 
-oleg.connect('http://localhost:38080/turtles');
+oleg.connect('http://localhost:38080');
 console.log(oleg);
-oleg.connect('http://localhost:38080/turtles/red');
+oleg.use('turtles');
 console.log(oleg);
