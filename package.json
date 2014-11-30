@@ -1,5 +1,5 @@
 {
-  "name": "node-oleg",
+  "name": "noleg",
   "version": "0.0.0",
   "description": "A Node.js ORM for OlegDB.",
   "main": "index.js",
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/maxdeviant/node-oleg.git"
+    "url": "https://github.com/maxdeviant/noleg.git"
   },
   "author": "Marshall Bowers <elliott.codes@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/maxdeviant/node-oleg/issues"
+    "url": "https://github.com/maxdeviant/noleg/issues"
   },
-  "homepage": "https://github.com/maxdeviant/node-oleg"
+  "homepage": "https://github.com/maxdeviant/noleg"
 }
